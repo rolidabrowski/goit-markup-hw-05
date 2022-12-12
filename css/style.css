@@ -83,6 +83,7 @@ body {
 
 .active-link {
   position: relative;
+  color: var(--color-blue);
 }
 
 .active-link::after {
