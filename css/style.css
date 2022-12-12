@@ -76,8 +76,7 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.nav-link:active {
+.nav-link:focus {
   color: var(--color-blue);
 }
 
