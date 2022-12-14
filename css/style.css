@@ -541,11 +541,15 @@ body {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.portfolio-card:hover .overlay {
+  transform: translatey(0);
+}
+
 .middle {
   vertical-align: middle;
 }
 
-.portfolio-text {
+.portfolio-description {
   display: block;
   padding: 20px 24px;
   border: 1px solid rgb(238, 238, 238);
@@ -572,10 +576,6 @@ body {
   width: 370px;
   height: 294px;
   overflow: hidden;
-}
-
-.overlay-box:hover .overlay {
-  transform: translatey(0);
 }
 
 .overlay {
